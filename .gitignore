@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Custom additions for AI project
+.env                  # OpenAI/API keys
+data/*.csv            # Ignore large datasets
+data/*.json
+*.ipynb               # Optional: ignore notebooks if auto-generated
+!.gitignore           # But keep the gitignore file itself!
